@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PermissionManagerExample</string>
+
+    <string name="access_warning_first_title">Access denied!</string>
+    <string name="access_warning_first">Dear user \n
+In order to use this app you need to accept all asked permissions .\n
+Please make sure to enable    "Permit drawing over other apps" switch then come back here .</string>
+    <string name="access_warning_exitapp">Exit app</string>
+    <string name="access_warning_retry">Re-try</string>
+
+
+    <string name="access_warning_second_title">PermissionManagerExample app is Diactivated</string>
+    <string name="access_warning_second">You have disabled this app by rejecting required permissions!\n
+ to make it work again you should enable switches provided in Permissions portion inside this apps Settings page .</string>
+    <string name="access_warning_second_gotosettings">Lets do it!</string>
+
+    <string name="access_warning_third">Dear user \n
+In order to use this app you need to accept all asked permissions .\n
+    </string>
+</resources>

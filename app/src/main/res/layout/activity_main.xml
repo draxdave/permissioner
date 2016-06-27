@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ir.drax.permissioner.MainActivity">
+
+    <TextView
+        android:id="@+id/explaination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are welcome to this example project .\n The first android M permissions manager ever published for free! ;)" />
+
+
+    <RelativeLayout
+        android:id="@+id/flContent_permission_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explaination"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="oOps!!"
+
+            android:layout_marginTop="42dp"
+            android:textSize="27sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/pageTitle"
+            />
+        <TextView
+            android:id="@+id/textToPerm"
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:text="In order to start app we need to check some settings(permissions and ..)"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="63dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check it out"
+            android:padding="25dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:onClick="chkPermissionsBtn"
+            android:background="@drawable/button_selector"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/textToPerm"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/dashboard_activation_msg"
+        android:visibility="gone"
+        android:layout_marginTop="143dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/dashboard_img"
+            android:layout_width="45dp"
+            android:layout_margin="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="45dp"
+            android:src="@drawable/accept"
+            />
+        <TextView
+            android:id="@+id/dashboard_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Great!"
+            android:layout_toStartOf="@id/dashboard_img"
+            android:textSize="40dp"
+            android:layout_toLeftOf="@id/dashboard_img" />
+
+
+
+        <TextView
+            android:id="@+id/dashboard_title_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="45dp"
+            android:layout_toStartOf="@id/dashboard_img"
+            android:text="Your good to go! :)"
+            android:textSize="18sp"
+            android:layout_toLeftOf="@id/dashboard_img" />
+    </RelativeLayout>
+</RelativeLayout>
