@@ -100,6 +100,7 @@ public class PermissonManager {
 
 
      public static Boolean onActivityResult(final Activity activity,String[] reqPermissions, int requestCode, int resultCode, Intent data) {
+
         if (requestCode == OVERLAY_PERMISSION_REQ_CODE) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 if (!Settings.canDrawOverlays(activity)) {
