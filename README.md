@@ -9,8 +9,9 @@ https://github.com/draxdave/permissioner/blob/fix1/app/src/main/java/ir/drax/per
 thats it!
 
 How to use it ? 
+first of all copy Strings.xml file's content into your project's resources folder. then
 
-//Permissoner.hasPermissions(Activity,Permission list,requestIfNeeded)
+//Permissoner.hasPermissions(Activity,Permission list,requestItIfNeeded)
 
 <pre>
 private String[] manifestPermissions={Manifest.permission.READ_PHONE_STATE,
