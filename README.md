@@ -1,5 +1,5 @@
 # permissioner
-Permissioner is a free android/java tool/class. Permissioner can halp android developers to work with Googles recent credential-security policy(dynamic permissions) over android devices. 
+Permissioner is a growing free android/java tool/class . Permissioner can halp android developers to work with Googles recent credential-security policy(dynamic permissions) over android devices. 
 As you may know working with dynamic permissions and handle it's errors is a bit complicated for those who are new to android . So i wrote a simple class to manage these issues for you.
 
 
